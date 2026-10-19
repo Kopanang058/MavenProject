@@ -69,15 +69,6 @@ and `App` hands over to `QuickChat` after login.
 | Message hash | First two ID digits : message number : first + last word, in capitals (e.g. `00:0:HITONIGHT`) |
 | Storage | Stored messages are written to `storedMessages.json` |
 
-## Feature branch workflow
-
-```
-git checkout -b part2-sending-messages
-# ...commit your work (minimum six commits)...
-git push -u origin part2-sending-messages
-# open a Pull Request on GitHub, wait for the green tick, then merge into main
-```
-
 ## References
 
 Bray, T. (2017) *The JavaScript Object Notation (JSON) Data Interchange Format*, RFC 8259.
